@@ -51,5 +51,5 @@ performance over time.
 - [Bark](https://github.com/suno-ai) for audio convertion and standard outputs in python 
 - [EnCodec](https://github.com/facebookresearch/encodec) for a state-of-the-art implementation of a fantastic audio codec
 - [AudioLM](https://github.com/lucidrains/audiolm-pytorch) for related training and inference code
-- [Vall-E](https://arxiv.org/abs/2301.02111), [AudioLM](https://arxiv.org/abs/2209.03143) and many other ground-breaking papers 
+- [Vall-E](https://arxiv.org/abs/2301.02111), [AudioLM](https://arxiv.org/abs/2209.03143) and many other ground-breaking papers
 
