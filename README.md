@@ -21,6 +21,19 @@ Colab Version  ✅
 | --- | :---: |
 | English (en) | ✅ |
 
+ 
+ ## Results Preview
+ 
+ 
+ [base_model.webm](https://github.com/Whitecat18/VoxBot-Ai/assets/96696929/7cdc9f5d-e1d2-435d-89b3-dc91df6b8142)
+ 
+
+ [advance_model-1.webm](https://github.com/Whitecat18/VoxBot-Ai/assets/96696929/38b3d652-8071-4dd9-9374-0d3f251d3fef)
+
+
+ [advance_model-2.webm](https://github.com/Whitecat18/VoxBot-Ai/assets/96696929/f36699a9-7dd4-4686-a458-aae541360cc1)
+
+ 
   
 ## Technologies Used
  
