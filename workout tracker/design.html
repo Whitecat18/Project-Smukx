@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workout Tracker</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .food-container,
+    .exercise-container {
+      flex-basis: 50%;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f5f5f5;
+    }
+
+    .food-container h2,
+    .exercise-container h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .food-form,
+    .exercise-form {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .food-form input[type="text"],
+    .food-form input[type="number"],
+    .exercise-form input[type="text"],
+    .exercise-form input[type="number"] {
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .food-exercise-container {
+    width: 50%;
+    float: none;
+    }
+
+    .exercise-tracker-container {
+    display: none;
+    }
+
+    .food-exercise-container:hover .exercise-tracker-container {
+    display: block;
+    }
+
+
+    .food-form button,
+    .exercise-form button {
+      padding: 5px 5px;
+      background-color: #312a2a;
+      color: #fff;
+      border: slategray;
+    }
+
+    .summary-container {
+      margin-top: 10px;
+      align-items: center;
+      border: 2px solid #ccc;
+      border-radius: 1px;
+      padding: 10px;
+      background-color: #f5f5f5;
+    }
+
+    .summary-container h2 {
+      color: #333;
+    }
+
+    .summary-container .progress-bar {
+      width: 10%;
+      height: 27px;
+      animation-fill-mode: center;
+      background-color: #333;
+      color: #fff;
+      line-height: 20px;
+    }
+
+    .summary-container .progress-bar.active {
+      background-color: #008000;
+    }
+  </style>
+</head>
+<body>
+<center>
+    <h1>Workout Tracker</h1>
+  <b>Welcome (admin)</b>
+
+    
+  <br> <br>
+
+  <div class="container">
+    <div class="food-container">
+      <center><h2>Food Tracker</h2></center>
+      <form class="food-form">
+        <input type="text" id="food-name" placeholder="Food Name" required>
+        <input type="number" id="food-calories" placeholder="Calories" required>
+        <button type="submit">Add Food</button>
+      </form>
+      <ul id="food-list"></ul>
+    </div>
+
+    <br><br> &nbsp;&nbsp; &nbsp;
+
+    <div class="exercise-container">
+      <h2>Exercise Tracker</h2>
+      <form class="exercise-form">
+        <input type="text" id="exercise-name" placeholder="Eg .cycling" required>
+        <input type="text" id="exercise-distance" placeholder="Distance (km)" required>
+        <input type="number" id="exercise-calories" placeholder="Calories Burned" required>
+        <button type="submit">Add Exercise</button>
+      </form>
+      <ul id="exercise-list"></ul>
+    </div>
+  </div>
+  <br><br><br>
+    </form>
+  <div class="summary-container">
+    <center>
+        <h2>Summary</h2><br>
+    <p>Total Calories: <span class="progress-bar" id="total-calories">0</span></p>
+    <p>Total Distance: <span class="progress-bar" id="total-distance">0</span> km</p>
+    <p>Total Calories Burned: <span class="progress-bar" id="total-calories-burned">0</span></p>
+    </center>
+  </div>
+</center>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
