@@ -1,0 +1,26 @@
+body {
+    font-family: monospace, sans-serif;
+    margin: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 15px;
+}
