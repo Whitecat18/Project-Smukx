@@ -1,7 +1,7 @@
 # VoxBot-Ai
 
 <p align="center">
- <a href="https://github.com/Whitecat18/VoxBot-Ai"><img src="https://raw.githubusercontent.com/Whitecat18/Project-Smukx/main/VoxBot-Ai/VoxBot/img-demo/VoxBot.jpeg" height=250/> 
+ <a href="https://github.com/Whitecat18/"><img src="https://raw.githubusercontent.com/Whitecat18/Project-Smukx/main/VoxBot_Ai/VoxBot/img-demo/VoxBot.jpeg" height=250/> 
   </p>
   
 VoxBoT . An Ai that converts Text to speech using advanced machine learning algorithms to analyze and understand the nuances of human speech, and then replicates those nuances in its own speech output. 
